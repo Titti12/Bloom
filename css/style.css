@@ -1,0 +1,52 @@
+
+:root {
+    --prim: #e17189;
+    --sec: #f4f4f6;
+    --tert: #ffffff;
+    --edgecolor: #26292e;
+    --font: 'Butterfly Kids', cursive;
+    --font2: 'Oswald', sans-serif;
+    --font3: 'Roboto', sans-serif;
+}
+
+.prim-font {
+    font-family: var(--font);
+    
+}
+.sec-font {
+    font-family: var(--font3);
+}
+.top-header {
+    background-color: var(--edgecolor);
+}
+.welcome-section {
+    background-color: var(--prim);
+    padding: 20px 30px;
+}
+.social-link {
+    background-color: white;
+    border-radius: 50%;
+    width:90%;
+}
+.main-section {
+    background-color: var(--sec);
+    padding: 20px 20px;
+}
+.search-icon1, .search-icon2, .search-icon3, .search-icon4 {
+    background-color: black;
+    color: white;
+    border: 7px solid grey;
+    height: 120px;
+    width: calc(80% / 2);
+    text-align: center;
+    line-height: 120px;
+    margin-bottom: 30px;
+    margin-right: 25px;
+}
+.top-footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bottom-footer {
+    background-color: var(--edgecolor);
+}
